@@ -5,8 +5,6 @@ import cfscrape, requests
 x = date.today()
 y = x - timedelta(days=1)
 
-
-
 current_date = x.strftime("%Y/%m/%d")
 yesterday = y.strftime("%Y/%m/%d")
 
