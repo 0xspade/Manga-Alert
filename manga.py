@@ -16,7 +16,7 @@ def alert(manga_url, date):
     request = scraper.get(manga_url)
     date = string(date)
     req = string(request.content)
-    datex = "<tr>"+date+"</tr>"
+    datex = "<td>"+date+"</td>"
     if datex in req:
         return True
     else:
