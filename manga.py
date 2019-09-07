@@ -5,6 +5,9 @@ import cfscrape, requests
 x = date.today()
 y = x - timedelta(days=1)
 
+key="" ## Create your own bot api_key to BotFather in Telegram
+id="" ## Find your Telegram ID >> google is your friend
+
 current_date = x.strftime("%Y/%m/%d")
 yesterday = y.strftime("%Y/%m/%d")
 
